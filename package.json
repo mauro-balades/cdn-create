@@ -1,6 +1,6 @@
 {
   "name": "cdn-create",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Create script/link tags to fetch your CDN resources and add them to your site at any time.",
   "main": "dist/index.js",
   "directories": {
