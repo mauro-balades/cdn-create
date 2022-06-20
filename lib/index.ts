@@ -61,6 +61,7 @@ const addCDN = (cdns: Array<CDNOptions>): void => {
          *  -----------------------------------------------
          *  >>> <script src="..." defer="" async=""></script>
          */
+        if (cdn.tag_options)
         Object.keys(cdn.tag_options).forEach(function(attribute: string) {
 
             // @ts-ignore

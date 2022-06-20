@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="../dist/index.js"></script>
+    <script>
+        addCDN([
+            {
+                url: "https://example.com/example.js",
+            },
+            {
+                url: "https://example.com/example.css",
+            },
+            {
+                url: "https://example.com/example.min.js",
+                tag_options: {
+                    defer: ""
+                }
+            }
+        ]);
+    </script>
+</body>
+</html>
